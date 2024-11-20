@@ -49,6 +49,8 @@ int login() {
     }
 }
 
+
+
 // Função para cadastrar um funcionário
 void cadastrar_funcionario() {
     FILE *fp = fopen("funcionarios.txt", "a");  // Abre o arquivo "funcionarios.txt" para adicionar novos dados
